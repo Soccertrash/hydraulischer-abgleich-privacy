@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Datenschutzerklärung — Hydraulischer Abgleich</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Datenschutzerklärung — Hydraulischer Abgleich</h1>
+<p class="stand">Stand: 12. September 2026</p>
+
+<h2 id="controller">Verantwortlicher</h2>
+<p>Verantwortlich für die Datenverarbeitung im Zusammenhang mit der App „Hydraulischer Abgleich“
+(Paketname <code>de.pauli.hydraulischerabgleich</code>) ist:</p>
+<p><strong>Manfred Pauli</strong><br>
+E-Mail: <a href="mailto:soccertrash.dev@gmail.com">soccertrash.dev@gmail.com</a></p>
+<p>Eine Postanschrift wird hier bewusst nicht genannt. Für alle Anfragen zu dieser App und dieser
+Datenschutzerklärung ist die oben genannte E-Mail-Adresse der richtige Weg.</p>
+
+<h2 id="summary">Kurzfassung</h2>
+<p>Die App speichert alle Daten ausschließlich <strong>lokal auf deinem Gerät</strong>. Es werden
+<strong>keine Daten an den Entwickler oder an Dritte übertragen</strong>. Die App ruft keine Server im
+Internet auf. Es gibt <strong>kein Tracking, keine Analyse-Dienste und keine Werbung</strong>. Ein Foto
+des Typenschilds und das Weitergeben eines Protokolls passieren nur, wenn du sie selbst auslöst.</p>
+
+<h2 id="data">Welche Daten verarbeitet die App?</h2>
+<p>Die App speichert nur, was zum Rechnen und Dokumentieren des hydraulischen Abgleichs nötig ist:</p>
+<ul>
+  <li>die Angaben zum Projekt: Bezeichnung (häufig eine Adresse), Baujahr, Wohnfläche, Angaben zur
+      Sanierung,</li>
+  <li>die Angaben zum Wärmeerzeuger, zu Räumen, Heizkreisen und zum Verteiler, jeweils mit Herkunft
+      und Datenqualität der Eingabe,</li>
+  <li>die berechneten Ergebnisse, die eingestellten Werte aus der Checkliste und die Notizen und
+      Messwerte der Feinabgleich-Runden,</li>
+  <li>optional ein <strong>Foto des Typenschilds</strong> des Wärmeerzeugers, das du selbst aufnimmst
+      oder aus der Galerie auswählst,</li>
+  <li>die Einstellungen der App: gewählte Einheit der Durchflussanzeige und hell/dunkel/System.</li>
+</ul>
+<p>Es werden <strong>keine Konten, keine Geräte-Kennungen, keine Werbe-ID und keine Standortdaten</strong>
+erhoben. Es gibt keine Anmeldung. Was du selbst in die Felder einträgst — etwa eine Kundenadresse als
+Projektbezeichnung — kann personenbezogen sein; es bleibt auf deinem Gerät und wird nicht übertragen.</p>
+
+<h2 id="professional">Berufliche Nutzung mit Kundendaten</h2>
+<p>Nutzt du die App als Handwerksbetrieb oder Energieberater und trägst dabei Daten deiner Kunden ein,
+bleibst du für diese Daten verantwortlich. Der Entwickler erhält sie nicht, verarbeitet sie nicht und
+ist damit auch kein Auftragsverarbeiter im Sinne der DSGVO.</p>
+
+<h2 id="storage">Wo liegen die Daten?</h2>
+<ul>
+  <li>Auf deinem Gerät im privaten Speicherbereich der App (Android <code>SharedPreferences</code> über
+      das Capacitor-Preferences-Plugin). Das Typenschild-Foto wird als Teil des Projekts in demselben
+      Speicherbereich abgelegt, nicht in der Galerie.</li>
+  <li>Beim Teilen eines Protokolls legt die App die Datei (JSON oder CSV) im <strong>Zwischenspeicher der
+      App</strong> ab, damit der Android-Teilen-Dialog sie übergeben kann. Dieser Bereich ist der App
+      vorbehalten und lässt sich in den Android-Einstellungen der App leeren.</li>
+  <li><strong>Android-Gerätesicherung:</strong> Ist die Gerätesicherung deines Android-Geräts aktiviert,
+      sichert Android die App-Daten automatisch in dein persönliches Google-Drive-Konto und überträgt
+      sie beim Gerätewechsel. Das ist eine Systemfunktion von Android unter deiner Kontrolle; der
+      Entwickler hat darauf keinen Zugriff. Du kannst die Gerätesicherung in den Android-Einstellungen
+      deaktivieren.</li>
+</ul>
+
+<h2 id="camera">Kamera und Galerie</h2>
+<p>Das Foto des Typenschilds dient allein dazu, die Angaben zum Wärmeerzeuger später nachlesen zu können.
+Die Kamera oder die Galerie öffnet sich <strong>nur, wenn du die Foto-Schaltfläche antippst</strong>; ob du
+aufnimmst oder ein vorhandenes Bild auswählst, entscheidest du im Dialog des Systems. Das Bild wird
+<strong>nicht ausgewertet</strong> (keine Texterkennung), nicht an einen Server geschickt und nicht in die
+Galerie geschrieben. Du kannst es in der App wieder entfernen.</p>
+
+<h2 id="sharing">Teilen und Export</h2>
+<p>Über „Teilen“ kannst du eine Kurzfassung des Ergebnisses als Text oder das vollständige Protokoll als
+JSON- oder CSV-Datei weitergeben. Die App übergibt den Inhalt dabei an den <strong>Teilen-Dialog von
+Android</strong>; wohin er geht — E-Mail, Messenger, Dateien-App, Cloud —, entscheidest du dort. Ab dem
+Moment der Übergabe gilt die Datenschutzerklärung der von dir gewählten Anwendung. Ohne dein Zutun
+verlässt kein Protokoll die App.</p>
+
+<h2 id="network">Netzwerk</h2>
+<p>Die App rechnet vollständig auf dem Gerät und <strong>ruft keine Server im Internet auf</strong> — es gibt
+keine Konten, keine Synchronisation, keine Karten- oder Wetterabfrage und keine nachgeladenen Schriften.
+Die Berechtigung <code>INTERNET</code> ist Teil der verwendeten App-Vorlage (Capacitor) und wird nicht
+genutzt.</p>
+
+<h2 id="permissions">Berechtigungen</h2>
+<ul>
+  <li><strong>Kamera</strong> und <strong>Zugriff auf Bilder</strong> (<code>READ_MEDIA_IMAGES</code>, auf
+      älteren Android-Versionen der Speicherzugriff): ausschließlich für das Typenschild-Foto, nur auf
+      deine ausdrückliche Aktion und nur mit der Freigabe, die Android dich einmalig fragt.</li>
+  <li><strong>Internet</strong>: aus der App-Vorlage, ungenutzt (siehe oben).</li>
+</ul>
+<p>Weitere Berechtigungen fordert die App nicht an. Die Kamera ist keine Voraussetzung: Ohne Foto
+funktioniert die App vollständig.</p>
+
+<h2 id="third-parties">Weitergabe an Dritte</h2>
+<p>Es findet keine Weitergabe statt. Die App enthält keine SDKs von Werbe- oder Analyseanbietern und
+keine Drittanbieter-Dienste.</p>
+
+<h2 id="children">Kinder</h2>
+<p>Die App richtet sich an Erwachsene — Fachhandwerk, Energieberatung und technisch interessierte
+Eigentümer — und nicht an Kinder. Sie erhebt ohnehin keine personenbezogenen Daten.</p>
+
+<h2 id="deletion">Löschung</h2>
+<p>Einzelne Projekte lassen sich in der App löschen, das Typenschild-Foto einzeln entfernen. Beim
+Deinstallieren der App werden alle lokalen Daten entfernt; der Zwischenspeicher lässt sich zusätzlich in
+den Android-Einstellungen der App leeren. Eine vorhandene Gerätesicherung wird nach den Regeln von
+Android und Google gelöscht oder lässt sich in den Einstellungen deines Google-Kontos verwalten.</p>
+
+<h2 id="rights">Deine Rechte</h2>
+<p>Da der Entwickler keine personenbezogenen Daten erhält, liegen ihm keine Daten über dich vor, die er
+herausgeben, berichtigen oder löschen könnte. Bei Fragen wende dich an die oben genannte
+Kontaktadresse.</p>
+
+<h2 id="disclaimer">Hinweis zu den Rechenergebnissen</h2>
+<p>Die App berechnet Sollwerte nach dem Verfahren der DIN EN 1264-2 mit Faktoren aus der Fachliteratur und
+schätzt fehlende Bestandsdaten begründet ab. Die Ergebnisse sind eine Planungshilfe mit angegebener
+Unsicherheit und ersetzen keine Fachplanung; das gehört nicht zum Datenschutz, soll hier aber nicht
+unerwähnt bleiben.</p>
+
+<h2 id="changes">Änderungen</h2>
+<p>Änderungen dieser Datenschutzerklärung werden an dieser Stelle veröffentlicht.</p>
+
+<footer>Hydraulischer Abgleich — <code>de.pauli.hydraulischerabgleich</code></footer>
+
+</body>
+</html>
